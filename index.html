@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Paper</title>
+    <style>
+        input {
+            margin: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <h2>统一建模语言理论测试</h3>
+        <p>
+            <label for="subjects">考试科目：统一建模语言</label>
+            <label for="time">时间：100分钟</label>
+            <label for="score">得分：100</label>
+        </p>
+        <p>
+            <label for="class">班级：</label><input type="text" name="class" value="1班">
+            <label for="number">学号：</label><input type="text" name="number" value="001">
+            <label for="name">姓名：</label><input type="text" name="name" value="王小闹">
+        </p>
+
+        <h4>一、填空题（每空5分，共20分）</h4>
+        <p><label for="1_1">1.UML的中文全称是：</label><input type="text" name="1_1" value="统一建模语言"></p>
+        <p><label for="1_2">2.对象最突出的特征是：</label><input type="text" name="1_2_!" value="封装性"><input type="text"
+                name="1_2_2" value="继承性"><input type="text" name="1_2_3" value="多态性"></p>
+
+        <h4>二、选择题（每题10分，共20分）</h4>
+        <p><label for="2_1">1.UML与软件工程的关系是：</label></p>
+        <div>
+            <input type="radio" id="2_1_1" name="2_1_A" value="2_1_1">
+            <label for="2_1_A">(A)UML就是软件工程</label>
+        </div>
+        <div>
+            <input type="radio" id="2_1_2" name="2_1_B" value="2_1_2" checked>
+            <label for="2_1_B">(B)UML参与到软件工程中软件开发过程的几个阶段</label>
+        </div>
+        <div>
+            <input type="radio" id="2_1_3" name="2_1_C" value="2_1_3">
+            <label for="2_1_C">(C)UML与软件工程无关</label>
+        </div>
+        <div>
+            <input type="radio" id="2_1_4" name="2_1_D" value="2_1_4">
+            <label for="2_1_D">(D)UML是软件工程的一部分</label>
+        </div>
+
+        <p><label for="2_2">2.Java语言支持：</label></p>
+        <div>
+            <input type="radio" id="2_2_1" name="2_2_A" value="2_2_1" checked>
+            <label for="2_2_A">(A)单继承</label>
+        </div>
+        <div>
+            <input type="radio" id="2_2_2" name="2_2_B" value="2_2_2">
+            <label for="2_2_B">(B)多继承</label>
+        </div>
+        <div>
+            <input type="radio" id="2_2_3" name="2_2_C" value="2_2_3">
+            <label for="2_2_C">(C)单继承和多继承都支持</label>
+        </div>
+        <div>
+            <input type="radio" id="2_2_4" name="2_2_D" value="2_2_4">
+            <label for="2_2_D">(D)单继承和多继承都不支持</label>
+        </div>
+
+        <h4>三、多择题（每题10分，共20分）</h4>
+        <p><label for="3_1">1.用例的粒度分为以下哪三种：</label></p>
+        <div>
+            <input type="checkbox" id="3_1_1" name="3_1_A" value="3_1_1" checked>
+            <label for="3_1_A">(A)概述级</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_1_2" name="3_1_B" value="3_1_2" checked>
+            <label for="3_1_B">(B)需求级</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_1_3" name="3_1_C" value="3_1_3">
+            <label for="3_1_C">(C)用户目标级</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_1_4" name="3_1_D" value="3_1_4" checked>
+            <label for="3_1_D">(D)子功能级</label>
+        </div>
+
+        <p><label for="3_2">2.类图由以下哪三部分组成：</label></p>
+        <div>
+            <input type="checkbox" id="3_2_1" name="3_2_A" value="3_2_1" checked>
+            <label for="3_2_A">(A)名称(Name)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_2_2" name="3_2_B" value="3_2_2" checked>
+            <label for="3_2_B">(B)属性(Attribute)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_2_3" name="3_2_C" value="3_2_3" checked>
+            <label for="3_2_C">(C)操作(Operation)</label>
+        </div>
+        <div>
+            <input type="checkbox" id="3_2_4" name="3_2_D" value="3_2_4">
+            <label for="3_2_D">(D)方法(Function)</label>
+        </div>
+
+        <h4>四、判断题（每题10分，共20分）</h4>
+        <div>
+            <label for="4_1_A">1.用例图只是用于和客户交流和沟通的，用于确定需求。</label>
+            <input type="radio" id="4_1_1" name="4_1_A" value="4_1_1">√
+            <input type="radio" id="4_1_2" name="4_1_B" value="4_1_2" checked>✖
+        </div>
+        <div>
+            <label for="4_1_B">2.在状态图中，终止状态在一个状态图中允许有任意多个。</label>
+            <input type="radio" id="4_2_1" name="4_2_A" value="4_2_1" checked>√
+            <input type="radio" id="4_2_1" name="4_2_B" value="4_2_1">✖
+        </div>
+
+        <h4>五、简答题（每题20分，共20分）</h4>
+        <p><label for="5_1">1.简述什么是模型以及模型的表现形式：</label></p>
+        <textarea id="story" name="story" rows="6" cols="70">模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事物或概念的一种表达形式，可以是物理实体；可以是某种图形；或者是一种数学表达式。
+        </textarea>
+
+        <div><button type="submit">计算分数</button></div>
+    </form>
+</body>
+
+</html>
